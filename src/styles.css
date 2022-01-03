@@ -1,0 +1,32 @@
+:root {
+  --primary-color: blue;
+  --subheading-color: blueviolet;
+  --background-color: pink;
+  --border: 10px solid green;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  background-color: var(--background-color);
+  border: var(--border);
+}
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h3 {
+  color: var(--subheading-color);
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
